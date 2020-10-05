@@ -1,3 +1,37 @@
 .app {
   text-align: center;
+  width: 600px;
+  height: 400px;
+  margin: 0 auto;
+  border: black solid 1px;
+
+  .menu{
+    height: 8%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 100px;
+    background-color: #40a9ff;   
+  }
+  ul li{
+    list-style:none; 
+    padding:10px 10px; 
+    font-size:8px;     
+    a{
+      text-decoration: none;
+      color: white;    
+    }   
+  }
+  ul li:last-child{
+    margin-right: 80px;    
+  }
+
+  .content{
+    width: 70%;
+    margin: 0 auto;
+    background-color: #f0f0f0; 
+    height: 92%;   
+  }
+  
 }
